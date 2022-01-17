@@ -195,6 +195,11 @@ body {
   display: flex;
   width: 100%;
   max-width: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1379,7 +1384,7 @@ body {
   }
 
   .subtitle {
-    color: #e1ff00;
+    color: #fff;
     font-size: 1.5rem;
   }
 
@@ -1542,6 +1547,33 @@ body {
 
   .textblk4 {
     font-size: 1.5rem;
+  }
+
+  .subtitle {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .lake {
+    width: 30px;
+  }
+
+  .button-menu {
+    padding-left: 10px;
+  }
+
+  .button-text {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .div-block-2 {
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
 }
 
