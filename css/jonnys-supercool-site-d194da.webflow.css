@@ -169,11 +169,7 @@ body {
 .heading-large {
   position: relative;
   margin-top: 0px;
-  margin-bottom: 16px;
-  margin-left: 1vw;
-  -webkit-transform: translate(0px, -57px);
-  -ms-transform: translate(0px, -57px);
-  transform: translate(0px, -57px);
+  margin-bottom: 0px;
   -webkit-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
   transition: all 500ms cubic-bezier(.25, .46, .45, .94);
   font-family: 'Road rage', sans-serif;
@@ -183,7 +179,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  text-shadow: 0 0 0.6vw #000;
+  text-shadow: 5px 5px 6px #000, -4px -4px 0 #df0edb, 0 2px 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 0 1px #000;
 }
 
 .heading-large:hover {
@@ -203,10 +199,10 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .down-arrow {
@@ -294,16 +290,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding-top: 41px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -722,14 +717,17 @@ body {
 }
 
 .button._80s {
+  min-width: 100%;
+  margin-bottom: 31px;
   padding: 30px 40px;
   border-style: solid;
   border-width: 3px;
   border-color: #52ebf0;
   background-color: rgba(0, 0, 0, 0.64);
-  font-family: 'Road rage', sans-serif;
+  font-family: Arcadeclassic, sans-serif;
   color: #4ed4e9;
   font-size: 3rem;
+  text-transform: capitalize;
 }
 
 .button._80s:hover {
@@ -864,6 +862,157 @@ body {
 
 .linkblk4 {
   text-decoration: none;
+}
+
+.line {
+  min-height: 100%;
+  min-width: 10px;
+  background-color: #75f9fe;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.subtitle {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Arcadeclassic, sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.title-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.lake {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: block;
+  width: 50px;
+  margin-right: 20px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+}
+
+.sub-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 75px;
+  min-width: 80%;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #75f9fe;
+  background-color: rgba(0, 0, 0, 0.55);
+  font-family: Arcadeclassic, sans-serif;
+  color: #75f9fe;
+  text-decoration: none;
+}
+
+.button-menu:hover {
+  background-color: rgba(219, 236, 92, 0.68);
+}
+
+.button-text {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.button-text-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-text-group:hover {
+  color: #df0edb;
+}
+
+.div-block-2 {
+  margin-top: 20px;
+  padding: 0px 20px 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.77);
 }
 
 @media screen and (max-width: 991px) {
@@ -1023,7 +1172,9 @@ body {
   }
 
   .text-block {
-    background-size: 80%;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: none;
   }
 
   .background-img.bg--inner-2 {
@@ -1106,6 +1257,16 @@ body {
     flex: 1;
     font-size: 3rem;
   }
+
+  .button-menu {
+    min-width: 80%;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+
+  .button-text {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1133,9 +1294,6 @@ body {
 
   .heading-large {
     margin-bottom: 8px;
-    -webkit-transform: translate(0px, -210px);
-    -ms-transform: translate(0px, -210px);
-    transform: translate(0px, -210px);
     font-family: 'Road rage', sans-serif;
     color: #fff;
     font-size: 3rem;
@@ -1218,6 +1376,19 @@ body {
 
   .textblk4 {
     font-size: 2rem;
+  }
+
+  .subtitle {
+    color: #e1ff00;
+    font-size: 1.5rem;
+  }
+
+  .lake {
+    width: 40px;
+  }
+
+  .button-text {
+    font-size: 1.5rem;
   }
 }
 
@@ -1375,6 +1546,13 @@ body {
 }
 
 @font-face {
+  font-family: 'Arcadeclassic';
+  src: url('../fonts/ARCADECLASSIC.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Pricedown bl';
   src: url('../fonts/pricedown-bl.ttf') format('truetype');
   font-weight: 400;
@@ -1384,6 +1562,13 @@ body {
 @font-face {
   font-family: 'Thunder lord';
   src: url('../fonts/Thunder-Lord.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Strasua';
+  src: url('../fonts/strasua.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
