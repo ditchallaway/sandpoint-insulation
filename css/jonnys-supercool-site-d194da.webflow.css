@@ -732,6 +732,140 @@ body {
   font-size: 3rem;
 }
 
+.button._80s:hover {
+  border-color: #df0edb;
+  background-color: rgba(206, 252, 70, 0.64);
+  color: #df0edb;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 84%;
+  background-color: #df0edb;
+}
+
+.m {
+  font-family: 'Road rage', sans-serif;
+  color: #e1ff00;
+  font-size: 10rem;
+}
+
+.profile-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 75px;
+  margin: 37px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e1ff00;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.heading-2 {
+  padding-left: 20px;
+  font-family: 'Thunder lord', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.heading-3 {
+  font-size: 2.5rem;
+}
+
+.round-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #df0edb;
+  border-radius: 100%;
+  background-color: #75f9fe;
+}
+
+.text-block-2 {
+  padding: 20px 10px;
+  background-color: #000;
+  font-family: 'Thunder lord', sans-serif;
+  font-size: 4rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 8px 0px 0px 40px;
+  background-color: #313131;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-block-3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.text-block-4 {
+  font-size: 3rem;
+}
+
+.coverall {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.link-block-2 {
+  text-decoration: none;
+}
+
+.link-block-3 {
+  text-decoration: none;
+}
+
+.link-block-4 {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
   .nav__transition-block-2 {
     position: fixed;
@@ -931,6 +1065,47 @@ body {
   .section-2 {
     padding: 64px 32px;
   }
+
+  .profile-field {
+    width: 90vw;
+  }
+
+  .round-button {
+    overflow: visible;
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .text-block-2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 3rem;
+  }
+
+  .contact {
+    font-size: 2.2rem;
+  }
+
+  .text-block-3 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 3rem;
+  }
+
+  .text-block-4 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1027,6 +1202,22 @@ body {
     border-color: #ff6ed4;
     background-color: #e1ff00;
     color: #ff0f13;
+  }
+
+  .text-block-2 {
+    font-size: 2rem;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+  }
+
+  .text-block-3 {
+    font-size: 2rem;
+  }
+
+  .text-block-4 {
+    font-size: 2rem;
   }
 }
 
@@ -1138,6 +1329,48 @@ body {
     box-shadow: 1px 1px 13px 0 #75f9fe;
     color: #ecfcff;
     font-size: 2rem;
+  }
+
+  .profile-field {
+    width: 100vw;
+    height: 50px;
+    margin: 40px 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-width: 3px;
+    border-color: #df0edb;
+  }
+
+  .round-button {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    background-color: transparent;
+  }
+
+  .text-block-2 {
+    padding: 0px;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+  }
+
+  .text-block-3 {
+    font-size: 1.5rem;
+  }
+
+  .text-block-4 {
+    font-size: 1.5rem;
   }
 }
 
