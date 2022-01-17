@@ -816,7 +816,7 @@ body {
   background-color: #75f9fe;
 }
 
-.text-block-2 {
+.textblk {
   padding: 20px 10px;
   background-color: #000;
   font-family: 'Thunder lord', sans-serif;
@@ -838,12 +838,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.text-block-3 {
+.textblk2 {
   font-size: 3rem;
   font-weight: 400;
 }
 
-.text-block-4 {
+.textblk4 {
   font-size: 3rem;
 }
 
@@ -854,15 +854,15 @@ body {
   background-color: rgba(0, 0, 0, 0.61);
 }
 
-.link-block-2 {
+.linkblock {
   text-decoration: none;
 }
 
-.link-block-3 {
+.linkblk3 {
   text-decoration: none;
 }
 
-.link-block-4 {
+.linkblk4 {
   text-decoration: none;
 }
 
@@ -1079,7 +1079,7 @@ body {
     object-fit: fill;
   }
 
-  .text-block-2 {
+  .textblk {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -1091,7 +1091,7 @@ body {
     font-size: 2.2rem;
   }
 
-  .text-block-3 {
+  .textblk2 {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -1099,7 +1099,7 @@ body {
     font-size: 3rem;
   }
 
-  .text-block-4 {
+  .textblk4 {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -1204,7 +1204,7 @@ body {
     color: #ff0f13;
   }
 
-  .text-block-2 {
+  .textblk {
     font-size: 2rem;
   }
 
@@ -1212,11 +1212,11 @@ body {
     font-size: 1.5rem;
   }
 
-  .text-block-3 {
+  .textblk2 {
     font-size: 2rem;
   }
 
-  .text-block-4 {
+  .textblk4 {
     font-size: 2rem;
   }
 }
@@ -1354,7 +1354,7 @@ body {
     background-color: transparent;
   }
 
-  .text-block-2 {
+  .textblk {
     padding: 0px;
     font-size: 1.5rem;
   }
@@ -1365,11 +1365,11 @@ body {
     font-size: 1.2rem;
   }
 
-  .text-block-3 {
+  .textblk2 {
     font-size: 1.5rem;
   }
 
-  .text-block-4 {
+  .textblk4 {
     font-size: 1.5rem;
   }
 }
