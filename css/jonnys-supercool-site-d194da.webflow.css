@@ -174,8 +174,6 @@ body {
   transition: all 500ms cubic-bezier(.25, .46, .45, .94);
   font-family: 'Road rage', sans-serif;
   color: #fff;
-  font-size: 5rem;
-  line-height: 1.2em;
   font-weight: 400;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -993,7 +991,6 @@ body {
 }
 
 .button-text {
-  font-size: 3rem;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -1162,11 +1159,6 @@ body {
     color: #fff;
   }
 
-  .heading-large {
-    font-size: 4rem;
-    line-height: 1.7em;
-  }
-
   .center-container {
     background-image: none;
   }
@@ -1267,10 +1259,6 @@ body {
     margin-right: 60px;
     margin-left: 60px;
   }
-
-  .button-text {
-    font-size: 2.5rem;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1300,8 +1288,6 @@ body {
     margin-bottom: 8px;
     font-family: 'Road rage', sans-serif;
     color: #fff;
-    font-size: 3rem;
-    line-height: 1.2em;
     text-shadow: 7px 7px 12px #000, 3px 3px 4px #000, 0 -4px 0 #df0edb;
   }
 
@@ -1390,10 +1376,6 @@ body {
   .lake {
     width: 40px;
   }
-
-  .button-text {
-    font-size: 1.5rem;
-  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1412,7 +1394,6 @@ body {
   .heading-large {
     margin-top: 12px;
     margin-bottom: 12px;
-    font-size: 2rem;
   }
 
   .center-container {
@@ -1587,8 +1568,7 @@ body {
 
   .button-text {
     margin-top: 10px;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 20px;
   }
 
   .div-block-2 {
