@@ -169,7 +169,7 @@ body {
 .heading-large {
   position: relative;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 2rem;
   -webkit-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
   transition: all 500ms cubic-bezier(.25, .46, .45, .94);
   font-family: 'Road rage', sans-serif;
@@ -193,6 +193,8 @@ body {
   display: flex;
   width: 100%;
   max-width: 100vh;
+  padding-top:5vw;
+  padding-bottom:5vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -832,7 +834,7 @@ body {
   margin-bottom: 0px;
   padding: 8px 0px 0px 40px;
   background-color: #313131;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 3rem;
   -webkit-background-clip: text;
   background-clip: text;
@@ -881,7 +883,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -892,7 +894,7 @@ body {
   align-items: center;
   font-family: Arcadeclassic, sans-serif;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
 }
 
@@ -901,7 +903,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -933,7 +935,7 @@ body {
   right: 0%;
   bottom: auto;
   display: block;
-  width: 50px;
+  width: 2rem;
   margin-right: 20px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
@@ -954,10 +956,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   min-height: 75px;
-  min-width: 80%;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
+  min-width: 70%;
+  margin-right: 50px;
+  margin-bottom: 1rem;
+  margin-left: 50px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1555,7 +1557,7 @@ body {
   .subtitle {
     color: #fff;
     font-size: 1rem;
-    line-height: 1rem;
+
   }
 
   .lake {
